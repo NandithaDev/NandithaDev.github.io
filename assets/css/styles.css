@@ -9,6 +9,9 @@ header {
     background: #333;
     color: #fff;
     text-align: center;
+    font-size: 2rem; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    padding: 1rem 0; /* Adjust padding */
 }
 
 .banner {
@@ -23,13 +26,15 @@ header {
 }
 
 .banner h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    header {
+    background: #333;
     color: #fff;
-    font-size: 6rem;
-    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 2rem; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    padding: 1rem 0; /* Adjust padding */
+}
+
 }
 
 main {
