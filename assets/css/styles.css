@@ -18,7 +18,7 @@ header {
 
 .banner img {
     width: 100%;
-    height: auto;
+    height: 80%;
     opacity: 0.7;
 }
 
@@ -28,8 +28,8 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 6rem;
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.5);
 }
 
 main {
