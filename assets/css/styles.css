@@ -34,7 +34,55 @@
     background: rgba(0, 0, 0, 0.3); /* Adjust the opacity and color */
     z-index: 0;
 }
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.project h2 {
+    margin-top: 0;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 /* Corrected footer CSS */
 footer {
     background: #333;
