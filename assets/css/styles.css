@@ -9,6 +9,7 @@ header {
     background: #333;
     color: #fff;
     text-align: center;
+    font-family: 'Ubuntu', Arial, sans-serif; 
     font-size: 2rem; /* Increase font size */
     font-weight: bold; /* Make text bold */
     padding: 1rem 0; /* Adjust padding */
