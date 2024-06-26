@@ -29,7 +29,7 @@ header {
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 4rem;
-    font-family: 'Montserrat', Arial, sans-serif; /* Font family adjusted */
+    font-family: 'Glacial Indifference', Arial, sans-serif; /* Font family adjusted */
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     z-index: 1; /* Ensure text is above the image */
